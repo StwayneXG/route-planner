@@ -1,0 +1,43 @@
+~/Anarkali
+Saddar	8
+Ichhra	5
+Allama Iqbal Town	8
+
+~/Saddar
+Askari 10	7
+Lahore Cantt	12
+Anarkali	8
+
+~/Lahore Cantt
+Askari 10	9
+Saddar	12
+RA Bazar	7
+
+~/Askari 10
+Lahore Cantt	9
+Saddar	7
+
+~/RA Bazar
+Lahore Cantt	7
+Liberty Market	9
+
+~/Liberty Market
+RA Bazar	9
+Ichhra	6
+Model Town	7
+
+~/Model Town
+Liberty Market	7
+Ichhra	8
+Allama Iqbal Town	8
+
+~/Ichhra
+Liberty Market	6
+Model Town	8
+Allama Iqbal Town	4
+Anarkali	5
+
+~/Allama Iqbal Town
+Ichhra	4
+Model Town	8
+Anarkali	8

@@ -1,0 +1,67 @@
+~/Westridge
+Moti Bazar	4
+Saddar	5
+Askari 11	4
+
+~/Saddar
+Askari 11	3
+Moti Bazar	3
+Westridge	5
+Chaklala Cantt	7
+Lalkurti	2
+Combined Military Hospital	3
+
+~/Askari 11
+Westridge	4
+Saddar	3
+Combined Military Hospital	3
+DHA 1	11
+
+~/Moti Bazar
+Westridge	4
+Saddar	3
+Chaklala Cantt	4
+
+~/Chaklala Cantt
+Moti Bazar	4
+Saddar	7
+Chaklala Scheme 3	6
+PWD	13
+
+~/Chaklala Scheme 3
+Chaklala Cantt	6
+Lalkurti	5
+Morgah	5
+Bahria Town	6
+PWD	8
+
+~/Lalkurti
+Chaklala Scheme 3	5
+Saddar	2
+
+~/Combined Military Hospital
+Morgah	6
+Saddar	3
+Askari 11	5
+
+~/Morgah
+Combined Military Hospital	6
+Chaklala Scheme 3	5
+DHA 1	5
+Bahria Town	9
+
+~/DHA 1
+Askari 11	11
+Morgah	5
+Bahria Town	8
+
+~/Bahria Town
+DHA 1	8
+Morgah	9
+Chaklala Scheme 3	6
+PWD	6
+
+~/PWD
+Bahria Town	6
+Chakala Scheme 3	8
+Chakala Cantt	13

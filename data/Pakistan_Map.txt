@@ -1,0 +1,89 @@
+~/Peshawar
+Abottabad	197
+Islamabad	183
+
+~/Abottabad
+Islamabad	134
+Peshawar	197
+
+~/Islamabad
+Abottabad	134
+Peshawar	183
+Sargodha	239
+Jhelum	119
+
+~/Sargodha
+Islamabad	239
+Sheikhupura	141
+Faisalabad	130
+Quetta	772
+
+~/Sheikhupura
+Lahore	56
+Faisalabad	91
+Sargodha	141
+
+~/Jhelum
+Islamabad	119
+Lahore	223
+
+~/Lahore
+Jhelum	223
+Sheikhupura	56
+Kasur	50
+Okara	129
+
+~/Kasur
+Lahore	50
+Okara	121
+
+~/Faisalabad
+Sheikhupura	91
+Sargodha	130
+Okara	100
+Multan	243
+
+~/Okara
+Faisalabad	100
+Lahore	129
+Kasur	121
+Sahiwal	40
+Multan	240
+
+~/Quetta
+DG Khan	538
+Sukkur	386
+Karachi	684
+Sargodha	772
+
+~/DG Khan
+Quetta	538
+Multan	97
+
+~/Multan
+Okara	240
+Faisalabad	243
+DG Khan	97
+Bahawalpur	100
+Sukkur	434
+Sahiwal	181
+
+~/Sahiwal
+Okara	40
+Multan	181
+Bahawalpur	237
+
+~/Bahawalpur
+Multan	100
+Sahiwal	237
+Sukkur	374
+
+~/Sukkur
+Bahawalpur	374
+Multan	434
+Quetta	386
+Karachi	474
+
+~/Karachi
+Sukkur	474
+Quetta	686
