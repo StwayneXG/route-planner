@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Rawalpindi</class>
+ <widget class="QDialog" name="Rawalpindi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>OCR A Extended</family>
+    <pointsize>16</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(99, 102, 40, 223));</string>
+  </property>
+  <widget class="QComboBox" name="ComboBoxSTART">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>288</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Askari 11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bahria Town</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chaklala Cantt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chaklala Scheme 3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Combined Military Hospital</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DHA 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lalkurti</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Moti Bazar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Morgah</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PWD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Saddar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Westridge</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="LabelSTART">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>240</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;OCR A Extended&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Starting Point:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelEND">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>208</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;OCR A Extended&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Ending Point:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ComboBoxEND">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>288</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Askari 11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bahria Town</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chaklala Cantt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chaklala Scheme 3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Combined Military Hospital</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DHA 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lalkurti</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Moti Bazar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Morgah</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PWD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Saddar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Westridge</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="LabelPATH">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>270</y>
+     <width>80</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;OCR A Extended&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Path:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textPath">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>310</y>
+     <width>291</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;OCR A Extended&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonFIND">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>500</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QPushButton{
+	color: rgb(255, 255, 255);
+     background-color:rgba(0, 0, 0, 0);
+ }
+QPushButton:hover {
+     background-color:rgba(0, 0, 0, 40);
+ }
+
+</string>
+   </property>
+   <property name="text">
+    <string>Find Path!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>120</y>
+     <width>411</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Studies/4th Semester/Data Structures/Project/Rawalpindi [Map].png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelSTART_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>50</y>
+     <width>160</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;OCR A Extended&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Rawalpindi</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonBACK">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QPushButton{
+	color: rgb(255, 255, 255);
+     background-color:rgba(0, 0, 0, 0);
+ }
+QPushButton:hover {
+     background-color:rgba(0, 0, 0, 40);
+ }
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Studies/4th Semester/Data Structures/Project/BackIcon.png</normaloff>../../Studies/4th Semester/Data Structures/Project/BackIcon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
