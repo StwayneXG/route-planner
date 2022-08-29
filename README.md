@@ -24,3 +24,7 @@ The project was built on Qt framework for C++. Copy the src files to a project i
 
 ### Output 03
 ![image](/samples/4.png)
+
+## License
+
+[MIT](LICENSE) © Irtaza Sajid Qureshi
